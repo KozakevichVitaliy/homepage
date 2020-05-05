@@ -1,3 +1,21 @@
+.page-animate {
+  animation: anim-opacity 2s ease !important;
+}
+
+
+
+@keyframes anim-opacity {
+  from {
+    opacity: 0;
+    left: -200px;
+  }
+
+  to {
+    opacity: 1;
+    left: 0;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .contacts-flex {
     display: flex !important;
