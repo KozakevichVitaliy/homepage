@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-  'use strict';
-
   const d = document;
 
   const playGame = (e) => {
@@ -9,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
   };
 
   d.getElementById('guitar').addEventListener('click', function () {
-    this.childNodes[2].play();
+    this.childNodes[3].play();
   });
   d.getElementById('dinosaur').addEventListener('click', playGame);
   
